@@ -1,2 +1,6 @@
 python-dotenv
 openai-agents
+fastapi
+os
+pydantic
+uvicorn[standard]
