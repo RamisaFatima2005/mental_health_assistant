@@ -99,6 +99,10 @@ export default function Home() {
           Send
         </button>
       </div>
+
+      <div className="justify-center">
+        <p>Made by Ramisa Fatima</p>
+      </div>
     </div>
   );
 }
