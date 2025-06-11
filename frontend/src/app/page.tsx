@@ -29,7 +29,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/chat", {
+      const res = await fetch("https://mentalhealthassistant-production.up.railway.app/", {
         method: "POST",
         headers: {"Content-Type": "application/json",},
         body: JSON.stringify({
@@ -101,7 +101,7 @@ export default function Home() {
       </div>
 
       <div className="justify-center">
-        <p>Made by Ramisa Fatima</p>
+        <p className="text-black">Built by Ramisa Fatima ❤</p>
       </div>
     </div>
   );
