@@ -1,3 +1,2 @@
-chainlit 
 python-dotenv
 openai-agents
