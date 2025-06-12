@@ -29,7 +29,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://mentalhealthassistant-production.up.railway.app", {
+      const res = await fetch("https://mentalhealthassistant-production.up.railway.app/chat", {
         method: "POST",
         headers: {"Content-Type": "application/json",},
         body: JSON.stringify({
