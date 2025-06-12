@@ -100,7 +100,7 @@ export default function Home() {
         </button>
       </div>
 
-      <div className="justify-center">
+      <div className="justify-center m-6">
         <p className="text-black">Built by Ramisa Fatima ❤</p>
       </div>
     </div>
