@@ -55,6 +55,6 @@ class ChatRequest(BaseModel):
 @app.post("/chat")
 async def chat(req: ChatRequest):
     input_data = req.history + [{"role": "user", "content": req.message}]
-    result = await Runner.run_streamed(agent, input=input_data, run_config=run_config)
+    result = await Runner.run(agent, input=input_data, run_config=run_config)
     return {"reply": result.final_output}
 
